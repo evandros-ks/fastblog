@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "SIR Model of Infectious Diseases",
-            "content": "An introduction to compartmental models in epidemiology and how to simulate disease dynamics in a population. .",
+            "content": "An introduction to compartmental models in epidemiology and how to simulate disease dynamics in a population. . Background . Epidemiological models are a type of compartmental model describing disease dynamics on a population. In the case of infectious diseases, we model how the virus/disease interacts with each compartment of the system. Each compartment in this model is represented as a homogeneous system - or an individual within a population where each individual is equivalent. Different epidemiological models consider different compartments with the most common being the SIR model. The compartments in this model are categorized within the population as susceptible (S), infected (I), or recovered (R). . .",
             "url": "https://evandros-ks.github.io/fastblog/2021/12/21/SIR_Model.html",
             "relUrl": "/2021/12/21/SIR_Model.html",
             "date": " • Dec 21, 2021"
