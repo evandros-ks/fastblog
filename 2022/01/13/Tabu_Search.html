@@ -965,13 +965,12 @@ window.onload = wrap_img;
         <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'Y Coordinate'</span><span class="p">)</span>
         <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
         
-        <span class="nb">print</span><span class="p">(</span><span class="s2">"without restart diversification"</span><span class="p">)</span>
         <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">frequency_memory</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
             <span class="k">if</span> <span class="p">(</span><span class="n">v</span> <span class="o">==</span> <span class="mi">10</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">k</span> <span class="o">!=</span> <span class="n">best_solution</span><span class="p">):</span>
                 <span class="n">restart_solution</span> <span class="o">=</span> <span class="n">ast</span><span class="o">.</span><span class="n">literal_eval</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
                 <span class="k">break</span>
          
-        <span class="nb">print</span><span class="p">(</span><span class="s1">'restart diversification'</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">'Without Restart Diversification'</span><span class="p">)</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">restart_solution</span><span class="p">)</span>
         <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="o">*</span><span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">restart_solution</span><span class="p">)))</span>
         <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="o">*</span><span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">restart_solution</span><span class="p">)))</span>
